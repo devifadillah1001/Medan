@@ -1,1 +1,167 @@
-# Medan
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Perancangan WEB</title>
+
+    <!-- Impor erkas CSS Anda -->
+     <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?famil=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+<header>
+    <div id="home" class="jumbotron">
+        <h1>Medan</h1>
+        <p> kota provinsi Sumatera Utara, Indonesia. Kota ini merupakan kota terbesar ketiga di Indonesia setelah DKI Jakarta, dan 
+            Surabaya serta kota terbesar di luar Pulau Jawa, sekaligus terbesar di Pulau Sumatra.</p>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="#home"> Home </a>
+            </li>
+            <li>
+                <a href="#sejarah"> Sejarah </a>
+            </li>
+            <li>
+                <a href="#geografis"> Geografi </a>
+            </li>
+            <li>
+                <a href="#wisata"> Wisata </a>
+            </li>
+            <li style="background-color: #ffffff; padding: 10px; border-radius: 5px;">
+                <a href="login.html" style="color: black;"> Login </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <div id="content">
+            <article id="sejarah" class="card">
+                <h2>Sejarah</h2>
+                <p>Sejarah Medan berawal dari sebuah kampung yang didirikan oleh Guru Patimpus di
+                pertemuan Sungai Deli dan Sungai Babura. Hari jadi Kota Medan ditetapkan pada 1 Juli 1590.
+                Selanjutnya pada tahun 1632, Medan dijadikan pusat pemerintahan Kesultanan Deli, sebuah
+                kerajaan Melayu. Bangsa Eropa mulai menemukan Medan sejak kedatangan John Anderson
+                dari Inggris pada tahun 1823. Peradaban di Medan terus berkembang hingga Pemerintah
+                Hindia Belanda memberikan status kota pada 1 April 1909 dan menjadikannya pusat
+                pemerintahan Karesidenan Sumatra Timur. Memasuki abad ke-20, Medan menjadi kota yang
+                penting di luar Pulau Jawa, terutama setelah pemerintah kolonial membuka perusahaan
+                perkebunan secara besar-besaran.</p>
+                <img src="sejarah.jpeg"alt="sejarah" height="500px" class="featured-image">
+            </article>
+
+            <article id="geografis" class="card">
+                <h3>Geografis</h3>
+                <p>Luas wilayah Kota Medan adalah 265,10 km2.[16] Persentase luasnya sama dengan 3,6% dari
+                keseluruhan wilayah Sumatera Utara. Dengan demikian, dibandingkan dengan
+                kota/kabupaten lainya, Medan memiliki luas wilayah yang relatif kecil dengan jumlah
+                penduduk yang relatif besar.[butuh rujukan] Wilayah Kota Medan berada pada 3° 27' – 3° 47'
+                Lintang Utara dan 98° 35'–98° 44' Bujur Timur.[17] Topografi kota Medan cenderung miring
+                ke utara. Ketinggian wilayahnya mulai dari 2,5–37,5 meter di atas permukaan laut.</p>
+                <img src="geografiss.jpeg" alt="geografis" height="500px" class="featured-image">
+            </article>
+
+            <article class="card">
+                <h3>Suku bangsa</h3>
+                <p>Kota Medan memiliki beragam etnis atau suku bangsa dengan mayoritas penduduk beretnis
+                Batak, Jawa, Tionghoa, dan Minangkabau. Adapun etnis aslinya adalah Batak Karo bagian
+                Jahe atau pesisir dan Melayu. Keanekaragaman etnis di Medan terlihat dari jumlah masjid,
+                gereja, dan vihara Tionghoa yang banyak tersebar di seluruh kota. Daerah di sekitar Jalan  
+                Zainul Arifin dikenal sebagai Kampung Keling, yang merupakan daerah pemukiman orang.</p>
+                keturunan India.
+
+                Secara persentasi, Kota Medan didominasi oleh suku bangsa Batak, yang meliputi Batak Toba,
+                Batak Angkola, Batak Mandailing, Batak Karo, Batak Simalungun, dan Batak Pakpak.
+                Penduduk kota Medan berdasarkan suku bangsa tahun 2000 yakni Batak sebanyak 33,70%
+                (Batak Toba 19,21%; Batak Angkola dan Batak Mandailing 9,36%; Batak Karo 4,10%; Batak
+                Simalungun 0,69%; Batak Pakpak 0,34%). Kemudian suku Jawa sebanyak 33,03%, diikuti
+                Tionghoa sebanyak 10,65%, kemudian Minangkabau sebanyak 8,60%, Melayu 6,59%, Aceh
+                2,78%, Nias sebanyak 0,69%, dan suku lainnya 3,96%.</p>
+                <img src="sukubangsa.jpeg" alt="sukubangsa" height="500px" class="featured-image">
+            </article>
+
+            <article id="wisata" class="card">
+                <h3>Pariwisata</h3>
+                <p>Ada banyak bangunan-bangunan tua di Medan yang masih menyisakan arsitektur khas
+                Belanda. Contohnya: Gedung Balai Kota lama, Kantor Pos Medan, Menara Air Tirtanadi (yang
+                merupakan ikon kota Medan), Titi Gantung–sebuah jembatan di atas rel kereta api, Kantor
+                Pos, Bank Indonesia, Gedung London Sumatra dan Bangunan tua di daerah Kesawan.
+
+                Selain itu, masih ada beberapa bangunan bersejarah, antara lain Istana Maimun, Masjid Raya
+                Medan, Masjid Raya Al Osmani dan juga rumah Tjong A Fie di kawasan Jalan Jend. Ahmad Yani (Kesawan)
+
+                Daerah Kesawan masih menyisakan bangunan-bangunan tua, seperti bangunan PT London
+                Sumatra, dan ruko-ruko tua seperti yang bisa ditemukan di Penang, Malaysia dan Singapura.
+                Ruko-ruko ini, kini telah disulap menjadi sebuah pusat jajanan makan yang ramai pada
+                malam harinya. Saat ini Pemerintah Kota merencanakan Medan sebagai Kota Pusat
+                Perbelanjaan dan Makanan. Diharapkan dengan adanya program ini menambah arus
+                kunjungan dan lama tinggal wisatawan ke kota ini.</p>
+                <img src="pariwisata.jpeg" alt="wisata" height="500px" class="featured-image">
+            </article>
+
+            <article class="card">
+                <h3>Olahraga</h3>
+                <p>Beberapa klub olahraga yang terdapat di Medan antara lain klub sepak bola: PSMS Medan,
+                Medan Jaya, Medan Chiefs, Bintang PSMS Medan dan Medan United; dan klub basket:
+                Angsapura Sania. Gelanggang olahraga yang terdapat di Medan antara lain Stadion Teladan,
+                Stadion Kebun Bunga, dan GOR Angsapura. Sedangkan lapangan untuk berolahraga adalah
+                Lapangan Merdeka, Lapangan Persit Chandra Kirana (Jalan Gaperta), dan Lapangan Benteng.</p>
+                <img src="Olahraga.jpeg" alt="olahraga" height="500px" class="featured-image">
+            </article>
+        </div>
+                <!-- Konten Samping -->
+            <aside>
+                <article class="profile card">
+                    <header>
+                        <h2>Kota Medan</h2>
+                        <p>Kota Wisata dan Budaya</p>
+                        <figure>
+                            <img src="https://portal.medan.go.id/storage/photos/1/logopemko.jpg" height="200"/>
+                            <figcaption>Lambang</figcaption>
+                        </figure>
+                    </header>
+            <section>
+            <h3>Informasi Lainnya</h3>
+                <table class="tabel1" border="1">
+                    <tr>
+                        <th> Negara </th>
+                        <td> Indonesia</td>
+                    </tr>
+                    <tr>
+                        <th> Hari jadi </th>
+                        <td> 25 September 1810 </td>
+                    </tr>
+                    <tr>
+                        <th> Luas Total </th>
+                        <td> 167.67 km<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <th> Bahasa Daerah </th>
+                        <td> Melayu </td>
+                    </tr>
+                    <tr>
+                        <th> Kode Telepon </th>
+                        <td> +62 22 </td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Belajar Perancangan WEB &#169; 2024, Universitas Satya Terra Bhinneka</p>
+    </footer>
+    </body>
+</html>
